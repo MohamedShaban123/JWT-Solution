@@ -195,7 +195,7 @@ namespace JWT.Controllers
             }
             else
             {
-                return BadRequest("Refresh Token Expired");
+                return BadRequest("Your session has expired. Please log in again to continue.");
             }
 
         }
